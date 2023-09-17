@@ -1,6 +1,7 @@
 import express from "express"
 
-const PORT = 5000 || config.get('serverPort')
+const PORT = process.env.PORT || 3000;
+
 
 const app = express()
 
