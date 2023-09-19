@@ -10,7 +10,7 @@ app.use(express.json())
 app.post('/',(req,res) => {
     console.log(req.body)
     
-    setTimeout(() => {res.status(200).json('Сервер рабоDWтае1т')}, 1000);
+    setTimeout(() => {res.status(200).json('Сервер рабоDWтае1т')}, 7000);
     
 
 })
